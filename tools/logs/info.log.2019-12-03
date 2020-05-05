@@ -1,0 +1,1466 @@
+2019-12-03 09:57:03,175 - tools.report.log_tool - INFO - ----请求用时: 281.595 秒数
+2019-12-03 09:57:03,177 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 41
+
+b'{"pwd": "qYFn2Y4a", "userName": "xiewu1"}'
+2019-12-03 09:57:03,177 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 01:57:01 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzQwMDIxMDQ0LCJ1c2VySWQiOjcsInVzZXJOYW1lIjoieGlld3UxIn0=","userName":"xiewu1"}}
+2019-12-03 09:57:03,364 - tools.report.log_tool - INFO - ----请求用时: 181.853 秒数
+2019-12-03 09:57:03,365 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 40
+
+b'{"pwd": "qYFn2Y4a", "userName": "xiewu"}'
+2019-12-03 09:57:03,365 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 01:57:01 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-12-03 09:57:03,535 - tools.report.log_tool - INFO - ----请求用时: 157.025 秒数
+2019-12-03 09:57:03,536 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 40
+
+b'{"pwd": "qYFn2Y4", "userName": "xiewu1"}'
+2019-12-03 09:57:03,536 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 01:57:01 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-12-03 10:37:56,819 - tools.report.log_tool - INFO - ----请求用时: 234.318 秒数
+2019-12-03 10:37:56,820 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"phone": "13758971414", "pwd": "gpOKB6mu", "rePwd": "gpOKB6mu", "userName": "qiuhong10"}'
+2019-12-03 10:37:56,820 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 02:37:54 GMT
+
+{"code":2000,"message":"注册成功；用户ID:359","data":{"userName":"qiuhong10","accoutId":337,"cstId":418,"userId":359}}
+2019-12-03 10:40:09,763 - tools.report.log_tool - INFO - ----请求用时: 225.549 秒数
+2019-12-03 10:40:09,764 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 88
+
+b'{"phone": "15973054330", "pwd": "1dD6EhDF", "rePwd": "1dD6EhDF", "userName": "yangyq37"}'
+2019-12-03 10:40:09,764 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 02:40:07 GMT
+
+{"code":2000,"message":"注册成功；用户ID:360","data":{"userName":"yangyq37","accoutId":338,"cstId":419,"userId":360}}
+2019-12-03 10:40:36,359 - tools.report.log_tool - INFO - ----请求用时: 196.749 秒数
+2019-12-03 10:40:36,359 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"phone": "15725390617", "pwd": "kBo733tu", "rePwd": "kBo733tu", "userName": "yangwan36"}'
+2019-12-03 10:40:36,359 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 02:40:34 GMT
+
+{"code":2000,"message":"注册成功；用户ID:361","data":{"userName":"yangwan36","accoutId":339,"cstId":420,"userId":361}}
+2019-12-03 10:41:05,945 - tools.report.log_tool - INFO - ----请求用时: 199.638 秒数
+2019-12-03 10:41:05,945 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 88
+
+b'{"phone": "18147049593", "pwd": "tVuYj4xf", "rePwd": "tVuYj4xf", "userName": "wugong97"}'
+2019-12-03 10:41:05,946 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 02:41:03 GMT
+
+{"code":2000,"message":"注册成功；用户ID:362","data":{"userName":"wugong97","accoutId":340,"cstId":421,"userId":362}}
+2019-12-03 10:46:45,062 - tools.report.log_tool - INFO - ----请求用时: 208.303 秒数
+2019-12-03 10:46:45,078 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 41
+
+b'{"pwd": "qYFn2Y4a", "userName": "xiewu1"}'
+2019-12-03 10:46:45,080 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 02:46:42 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzQzMDAyOTQxLCJ1c2VySWQiOjcsInVzZXJOYW1lIjoieGlld3UxIn0=","userName":"xiewu1"}}
+2019-12-03 10:50:31,642 - tools.report.log_tool - INFO - ----请求用时: 218.107 秒数
+2019-12-03 10:50:51,625 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 40
+
+b'{"pwd": "qYFn2Y4a", "userName": "xiewu"}'
+2019-12-03 10:51:05,598 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 02:50:27 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-12-03 10:51:06,177 - tools.report.log_tool - INFO - ----请求用时: 240.152 秒数
+2019-12-03 10:51:37,689 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 40
+
+b'{"pwd": "qYFn2Y4", "userName": "xiewu1"}'
+2019-12-03 10:51:37,691 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 02:51:04 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-12-03 11:07:18,338 - tools.report.log_tool - INFO - ----请求用时: 228.656 秒数
+2019-12-03 11:07:18,365 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 87
+
+b'{"phone": "17819759350", "pwd": "elO9pWt7", "rePwd": "elO9pWt7", "userName": "qiuld87"}'
+2019-12-03 11:07:18,366 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 03:07:16 GMT
+
+{"code":2000,"message":"注册成功；用户ID:363","data":{"userName":"qiuld87","accoutId":341,"cstId":422,"userId":363}}
+2019-12-03 12:28:15,332 - tools.report.log_tool - INFO - ----请求用时: 295.787 秒数
+2019-12-03 12:28:15,332 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 41
+
+b'{"pwd": "qYFn2Y4a", "userName": "xiewu1"}'
+2019-12-03 12:28:15,333 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 04:28:13 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzQ5MDkzMjA1LCJ1c2VySWQiOjcsInVzZXJOYW1lIjoieGlld3UxIn0=","userName":"xiewu1"}}
+2019-12-03 12:28:15,616 - tools.report.log_tool - INFO - ----请求用时: 269.237 秒数
+2019-12-03 12:28:15,616 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 40
+
+b'{"pwd": "qYFn2Y4a", "userName": "xiewu"}'
+2019-12-03 12:28:15,617 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 04:28:13 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-12-03 12:28:16,264 - tools.report.log_tool - INFO - ----请求用时: 643.771 秒数
+2019-12-03 12:28:16,265 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 40
+
+b'{"pwd": "qYFn2Y4", "userName": "xiewu1"}'
+2019-12-03 12:28:16,266 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 04:28:13 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-12-03 12:39:13,467 - tools.report.log_tool - INFO - ----请求用时: 191.652 秒数
+2019-12-03 12:39:13,468 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?accountName=xuepl123
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 12:39:13,479 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 04:39:11 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 12:39:34,402 - tools.report.log_tool - INFO - ----请求用时: 155.169 秒数
+2019-12-03 12:39:34,403 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?accountName=xuepl123
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 12:39:34,404 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 04:39:32 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 12:58:18,638 - tools.report.log_tool - INFO - ----请求用时: 263.432 秒数
+2019-12-03 12:58:18,638 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-12-03 12:58:18,638 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 04:58:16 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-12-03 13:00:12,178 - tools.report.log_tool - INFO - ----请求用时: 226.72 秒数
+2019-12-03 13:00:12,178 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-12-03 13:00:12,178 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 05:00:10 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-12-03 13:02:31,928 - tools.report.log_tool - INFO - ----请求用时: 201.069 秒数
+2019-12-03 13:02:31,928 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-12-03 13:02:31,928 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 05:02:29 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-12-03 13:02:55,720 - tools.report.log_tool - INFO - ----请求用时: 232.144 秒数
+2019-12-03 13:02:55,720 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-12-03 13:02:55,720 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 05:02:53 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-12-03 13:39:05,547 - tools.report.log_tool - INFO - ----请求用时: 261.448 秒数
+2019-12-03 13:39:05,547 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13630563203", "pwd": "8Moj6Z4R", "rePwd": "8Moj6Z4R", "userName": "yie76"}'
+2019-12-03 13:39:05,547 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 05:39:03 GMT
+
+{"code":2000,"message":"注册成功；用户ID:2014","data":{"userName":"yie76","accoutId":2014,"cstId":2078,"userId":2014}}
+2019-12-03 13:57:58,037 - tools.report.log_tool - INFO - ----请求用时: 251.14 秒数
+2019-12-03 13:57:58,037 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 88
+
+b'{"phone": "18579214164", "pwd": "ohG9SZTA", "rePwd": "ohG9SZTA", "userName": "xipeng88"}'
+2019-12-03 13:57:58,037 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 05:57:55 GMT
+
+{"code":2000,"message":"注册成功；用户ID:2015","data":{"userName":"xipeng88","accoutId":2015,"cstId":2079,"userId":2015}}
+2019-12-03 14:27:11,739 - tools.report.log_tool - INFO - ----请求用时: 181.622 秒数
+2019-12-03 14:27:11,739 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "123456d", "userName": "xx123456d"}'
+2019-12-03 14:27:11,754 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:27:09 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzU2MjI5Njc2LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 14:27:11,853 - tools.report.log_tool - INFO - ----请求用时: 95.446 秒数
+2019-12-03 14:27:11,853 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/user/changepwd
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTc1MzU2MjI5Njc2LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=
+content-type: application/json;;charset=UTF-8
+Content-Length: 93
+
+b'{"newPwd": "R0rO3uCy", "oldPwd": "Mn4wvAEG", "reNewPwd": "R0rO3uCy", "userName": "qinxiao82"}'
+2019-12-03 14:27:11,853 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:27:09 GMT
+
+{"code":9999,"message":"修改失败,用户名不存在","data":""}
+2019-12-03 14:42:25,971 - tools.report.log_tool - INFO - ----请求用时: 238.039 秒数
+2019-12-03 14:42:25,971 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 88
+
+b'{"phone": "15991631052", "pwd": "XQkx3OJ5", "rePwd": "XQkx3OJ5", "userName": "menrui98"}'
+2019-12-03 14:42:25,971 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:42:23 GMT
+
+{"code":2000,"message":"注册成功；用户ID:2017","data":{"userName":"menrui98","accoutId":2017,"cstId":2081,"userId":2017}}
+2019-12-03 14:45:13,241 - tools.report.log_tool - INFO - ----请求用时: 178.356 秒数
+2019-12-03 14:45:13,242 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "123456d", "userName": "xx123456d"}'
+2019-12-03 14:45:13,243 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:45:11 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzU3MzExMTY3LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 14:45:13,365 - tools.report.log_tool - INFO - ----请求用时: 115.958 秒数
+2019-12-03 14:45:13,365 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/user/changepwd
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTc1MzU3MzExMTY3LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=
+content-type: application/json;;charset=UTF-8
+Content-Length: 92
+
+b'{"newPwd": "6XiXxe6w", "oldPwd": "123456d", "reNewPwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 14:45:13,365 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:45:11 GMT
+
+{"code":2000,"message":"修改成功1","data":""}
+2019-12-03 14:45:47,292 - tools.report.log_tool - INFO - ----请求用时: 186.455 秒数
+2019-12-03 14:45:47,293 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "123456d", "userName": "xx123456d"}'
+2019-12-03 14:45:47,293 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:45:45 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-12-03 14:47:44,685 - tools.report.log_tool - INFO - ----请求用时: 222.878 秒数
+2019-12-03 14:47:44,686 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "123456d", "userName": "xx123456d"}'
+2019-12-03 14:47:44,686 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:47:42 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-12-03 14:50:11,638 - tools.report.log_tool - INFO - ----请求用时: 175.187 秒数
+2019-12-03 14:50:11,638 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 14:50:11,639 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:50:09 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzU3NjA5NTY2LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 14:50:11,741 - tools.report.log_tool - INFO - ----请求用时: 100.658 秒数
+2019-12-03 14:50:11,742 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=18888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 14:50:11,746 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:50:09 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 14:51:27,850 - tools.report.log_tool - INFO - ----请求用时: 127.925 秒数
+2019-12-03 14:51:27,850 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 14:51:27,850 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:51:25 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzU3Njg1Nzc3LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 14:51:27,953 - tools.report.log_tool - INFO - ----请求用时: 98.149 秒数
+2019-12-03 14:51:27,953 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=18888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 14:51:27,959 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:51:25 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 14:57:57,836 - tools.report.log_tool - INFO - ----请求用时: 179.451 秒数
+2019-12-03 14:57:57,836 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 14:57:57,836 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:57:55 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzU4MDc1NzYyLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 14:57:57,935 - tools.report.log_tool - INFO - ----请求用时: 93.689 秒数
+2019-12-03 14:57:57,935 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=18888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 14:57:57,941 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 06:57:55 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 15:06:24,305 - tools.report.log_tool - INFO - ----请求用时: 362.689 秒数
+2019-12-03 15:06:24,307 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:06:24,307 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:06:22 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzU4NTgyMTIwLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:06:24,448 - tools.report.log_tool - INFO - ----请求用时: 131.582 秒数
+2019-12-03 15:06:24,449 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=18888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 15:06:24,455 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:06:22 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 15:08:18,601 - tools.report.log_tool - INFO - ----请求用时: 172.091 秒数
+2019-12-03 15:08:18,601 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:08:18,602 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:08:16 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzU4Njk2NTMwLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:08:18,708 - tools.report.log_tool - INFO - ----请求用时: 96.735 秒数
+2019-12-03 15:08:18,709 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=18888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 15:08:18,710 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:08:16 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 15:14:07,685 - tools.report.log_tool - INFO - ----请求用时: 187.889 秒数
+2019-12-03 15:14:07,686 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:14:07,686 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:14:05 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzU5MDQ1NjEzLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:14:07,693 - tools.report.log_tool - ERROR - Exception url: http://api.yansl.com:8084/cst/getCustomer
+2019-12-03 15:14:07,700 - tools.report.log_tool - ERROR - too many values to unpack (expected 2)
+2019-12-03 15:20:21,965 - tools.report.log_tool - INFO - ----请求用时: 181.371 秒数
+2019-12-03 15:20:21,966 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:20:21,967 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:20:19 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzU5NDE5ODk2LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:20:21,974 - tools.report.log_tool - ERROR - Exception url: http://api.yansl.com:8084/cst/getCustomer
+2019-12-03 15:20:21,974 - tools.report.log_tool - ERROR - too many values to unpack (expected 2)
+2019-12-03 15:36:02,923 - tools.report.log_tool - INFO - ----请求用时: 188.302 秒数
+2019-12-03 15:36:02,923 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:36:02,923 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:36:00 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYwMzYwODU1LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:36:02,926 - tools.report.log_tool - ERROR - Exception url: http://api.yansl.com:8084/cst/getCustomer
+2019-12-03 15:36:02,926 - tools.report.log_tool - ERROR - too many values to unpack (expected 2)
+2019-12-03 15:39:20,636 - tools.report.log_tool - INFO - ----请求用时: 185.343 秒数
+2019-12-03 15:39:20,637 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:39:20,637 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:39:18 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYwNTU4NTY2LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:39:20,742 - tools.report.log_tool - INFO - ----请求用时: 95.956 秒数
+2019-12-03 15:39:20,743 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?%7B'phone:18888888888'%7D
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 15:39:20,750 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:39:18 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 15:40:01,635 - tools.report.log_tool - INFO - ----请求用时: 150.4 秒数
+2019-12-03 15:40:01,635 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:40:01,635 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:39:59 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYwNTk5NTY5LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:40:01,730 - tools.report.log_tool - INFO - ----请求用时: 89.112 秒数
+2019-12-03 15:40:01,730 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?%7B'phone:18888888888'%7D
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 15:40:01,736 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:39:59 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 15:43:54,390 - tools.report.log_tool - INFO - ----请求用时: 187.96 秒数
+2019-12-03 15:43:54,391 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:43:54,392 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:43:52 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYwODMyMzE5LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:43:54,496 - tools.report.log_tool - INFO - ----请求用时: 94.28 秒数
+2019-12-03 15:43:54,496 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?%7B'phone':%20'18888888888'%7D
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 15:43:54,504 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:43:52 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 15:45:12,452 - tools.report.log_tool - INFO - ----请求用时: 178.349 秒数
+2019-12-03 15:45:12,453 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:45:12,453 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:45:10 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYwOTEwMzgwLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:45:12,557 - tools.report.log_tool - INFO - ----请求用时: 93.79 秒数
+2019-12-03 15:45:12,558 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=18888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 15:45:12,564 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:45:10 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 15:45:44,376 - tools.report.log_tool - INFO - ----请求用时: 172.803 秒数
+2019-12-03 15:45:44,377 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:45:44,378 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:45:42 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYwOTQyMjkzLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:45:44,483 - tools.report.log_tool - INFO - ----请求用时: 95.352 秒数
+2019-12-03 15:45:44,483 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=18888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 15:45:44,490 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:45:42 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 15:49:54,645 - tools.report.log_tool - INFO - ----请求用时: 164.584 秒数
+2019-12-03 15:49:54,646 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:49:54,646 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:49:52 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYxMTkyNTczLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:49:54,748 - tools.report.log_tool - INFO - ----请求用时: 91.594 秒数
+2019-12-03 15:49:54,749 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?%7B'phone':%201888888888%7D
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 15:49:54,756 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:49:52 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 15:50:47,470 - tools.report.log_tool - INFO - ----请求用时: 180.335 秒数
+2019-12-03 15:50:47,471 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:50:47,472 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:50:45 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYxMjQ1Mzk5LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:50:47,572 - tools.report.log_tool - INFO - ----请求用时: 90.69 秒数
+2019-12-03 15:50:47,573 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?%7B'phone':%201888888888%7D
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 15:50:47,580 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:50:45 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 15:51:25,417 - tools.report.log_tool - INFO - ----请求用时: 176.219 秒数
+2019-12-03 15:51:25,418 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:51:25,418 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:51:23 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYxMjgzMzQyLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:51:25,522 - tools.report.log_tool - INFO - ----请求用时: 93.473 秒数
+2019-12-03 15:51:25,522 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?%7B'phone':%201888888888%7D
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+None
+2019-12-03 15:51:25,530 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:51:23 GMT
+
+{"code":9999,"data":"","message":"没有带上token"}
+2019-12-03 15:53:15,335 - tools.report.log_tool - INFO - ----请求用时: 172.788 秒数
+2019-12-03 15:53:15,336 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:53:15,336 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:53:13 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYxMzkzMjY0LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:55:13,651 - tools.report.log_tool - INFO - ----请求用时: 180.651 秒数
+2019-12-03 15:55:13,651 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:55:13,652 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:55:11 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYxNTExNTczLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:55:58,991 - tools.report.log_tool - INFO - ----请求用时: 159.203 秒数
+2019-12-03 15:55:58,991 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:55:58,992 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:55:56 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYxNTU2OTIxLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 15:57:16,667 - tools.report.log_tool - INFO - ----请求用时: 170.07 秒数
+2019-12-03 15:57:16,667 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 15:57:16,667 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:57:14 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYxNjM0NTk1LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 16:00:01,686 - tools.report.log_tool - INFO - ----请求用时: 190.459 秒数
+2019-12-03 16:00:01,686 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 16:00:01,687 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 07:59:59 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYxNzk5NjE3LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 16:00:50,015 - tools.report.log_tool - INFO - ----请求用时: 186.808 秒数
+2019-12-03 16:00:50,015 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 16:00:50,015 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:00:47 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYxODQ3OTQ1LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 16:01:27,822 - tools.report.log_tool - INFO - ----请求用时: 171.177 秒数
+2019-12-03 16:01:27,822 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 16:01:27,823 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:01:25 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYxODg1NzUwLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 16:06:12,458 - tools.report.log_tool - INFO - ----请求用时: 180.26 秒数
+2019-12-03 16:06:12,459 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 16:06:12,460 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:06:10 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYyMTcwMzg1LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 16:12:18,440 - tools.report.log_tool - INFO - ----请求用时: 171.608 秒数
+2019-12-03 16:12:18,441 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 16:12:18,442 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:12:16 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYyNTM2MzcwLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 16:12:18,547 - tools.report.log_tool - INFO - ----请求用时: 95.306 秒数
+2019-12-03 16:12:18,548 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=1888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTc1MzYyNTM2MzcwLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=
+
+None
+2019-12-03 16:12:18,548 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:12:16 GMT
+
+{"code":2000,"message":"没有此手机号","data":""}
+2019-12-03 16:32:39,738 - tools.report.log_tool - INFO - ----请求用时: 193.157 秒数
+2019-12-03 16:32:39,739 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 16:32:39,740 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:32:37 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYzNzU3NjY0LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 16:32:39,845 - tools.report.log_tool - INFO - ----请求用时: 95.893 秒数
+2019-12-03 16:32:39,846 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=1888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTc1MzYzNzU3NjY0LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=
+
+None
+2019-12-03 16:32:39,846 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:32:37 GMT
+
+{"code":2000,"message":"没有此手机号","data":""}
+2019-12-03 16:33:52,886 - tools.report.log_tool - INFO - ----请求用时: 161.961 秒数
+2019-12-03 16:33:52,887 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 16:33:52,887 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:33:50 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzYzODMwODE0LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 16:33:53,014 - tools.report.log_tool - INFO - ----请求用时: 118.4 秒数
+2019-12-03 16:33:53,015 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=1888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTc1MzYzODMwODE0LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=
+
+None
+2019-12-03 16:33:53,015 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:33:50 GMT
+
+{"code":2000,"message":"没有此手机号","data":""}
+2019-12-03 16:38:34,420 - tools.report.log_tool - INFO - ----请求用时: 176.444 秒数
+2019-12-03 16:38:34,421 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 16:38:34,422 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:38:32 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzY0MTEyMzUyLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 16:38:34,525 - tools.report.log_tool - INFO - ----请求用时: 95.311 秒数
+2019-12-03 16:38:34,525 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=1888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTc1MzY0MTEyMzUyLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=
+
+None
+2019-12-03 16:38:34,526 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:38:32 GMT
+
+{"code":2000,"message":"没有此手机号","data":""}
+2019-12-03 16:45:56,997 - tools.report.log_tool - INFO - ----请求用时: 290.558 秒数
+2019-12-03 16:45:56,997 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 16:45:56,997 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:45:54 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzY0NTU0OTI3LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 16:45:57,100 - tools.report.log_tool - INFO - ----请求用时: 94.881 秒数
+2019-12-03 16:45:57,101 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=1888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTc1MzY0NTU0OTI3LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=
+
+None
+2019-12-03 16:45:57,101 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:45:54 GMT
+
+{"code":2000,"message":"没有此手机号","data":""}
+2019-12-03 16:48:16,352 - tools.report.log_tool - INFO - ----请求用时: 171.956 秒数
+2019-12-03 16:48:16,352 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 16:48:16,352 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:48:14 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzY0Njk0MjgwLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 16:48:16,447 - tools.report.log_tool - INFO - ----请求用时: 90.422 秒数
+2019-12-03 16:48:16,447 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=1888888888
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTc1MzY0Njk0MjgwLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=
+
+None
+2019-12-03 16:48:16,448 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 08:48:14 GMT
+
+{"code":2000,"message":"没有此手机号","data":""}
+2019-12-03 17:43:51,354 - tools.report.log_tool - INFO - ----请求用时: 199.671 秒数
+2019-12-03 17:43:51,355 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 17:43:51,355 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 09:43:49 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzY4MDI5Mjg1LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 17:43:51,521 - tools.report.log_tool - INFO - ----请求用时: 156.109 秒数
+2019-12-03 17:43:51,522 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getAll/1/4
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTc1MzY4MDI5Mjg1LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=
+
+None
+2019-12-03 17:43:51,522 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 09:43:49 GMT
+
+{"code":2000,"message":"查询成功","data":[{"cstId":1,"cstName":"王","phone":"15123274197","certno":"320681199111107212","province":"上海","city":"上海","status":0,"createTime":"2019-10-11T00:32:29.000+0000","updateTime":"2019-10-11T00:32:29.000+0000","birthday":"2019-10-28T00:00:00.000+0000","sex":1,"email":"143976@qq.com"},{"cstId":2,"cstName":"刘能","phone":"15123274196","certno":"330781198509072891","province":"江西","city":"上海","status":0,"createTime":"2019-10-11T02:28:08.000+0000","updateTime":"2019-10-11T02:28:08.000+0000","birthday":"1985-09-07T00:00:00.000+0000","sex":0,"email":"1831937804@qq.com"},{"cstId":6,"cstName":null,"phone":"13483781387","certno":null,"province":null,"city":null,"status":0,"createTime":"2019-10-11T03:38:38.000+0000","updateTime":"2019-10-11T03:38:38.000+0000","birthday":null,"sex":null,"email":null},{"cstId":11,"cstName":null,"phone":"13606610876","certno":null,"province":null,"city":null,"status":0,"createTime":"2019-10-11T03:39:58.000+0000","updateTime":"2019-10-11T03:39:58.000+0000","birthday":null,"sex":null,"email":null}]}
+2019-12-03 17:44:52,147 - tools.report.log_tool - INFO - ----请求用时: 169.649 秒数
+2019-12-03 17:44:52,147 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 17:44:52,148 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 09:44:50 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzY4MDkwMDgwLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 17:44:52,266 - tools.report.log_tool - INFO - ----请求用时: 110.933 秒数
+2019-12-03 17:44:52,266 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getAll/1/4
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTc1MzY4MDkwMDgwLCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=
+
+None
+2019-12-03 17:44:52,267 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 09:44:50 GMT
+
+{"code":2000,"message":"查询成功","data":[{"cstId":1,"cstName":"王","phone":"15123274197","certno":"320681199111107212","province":"上海","city":"上海","status":0,"createTime":"2019-10-11T00:32:29.000+0000","updateTime":"2019-10-11T00:32:29.000+0000","birthday":"2019-10-28T00:00:00.000+0000","sex":1,"email":"143976@qq.com"},{"cstId":2,"cstName":"刘能","phone":"15123274196","certno":"330781198509072891","province":"江西","city":"上海","status":0,"createTime":"2019-10-11T02:28:08.000+0000","updateTime":"2019-10-11T02:28:08.000+0000","birthday":"1985-09-07T00:00:00.000+0000","sex":0,"email":"1831937804@qq.com"},{"cstId":6,"cstName":null,"phone":"13483781387","certno":null,"province":null,"city":null,"status":0,"createTime":"2019-10-11T03:38:38.000+0000","updateTime":"2019-10-11T03:38:38.000+0000","birthday":null,"sex":null,"email":null},{"cstId":11,"cstName":null,"phone":"13606610876","certno":null,"province":null,"city":null,"status":0,"createTime":"2019-10-11T03:39:58.000+0000","updateTime":"2019-10-11T03:39:58.000+0000","birthday":null,"sex":null,"email":null}]}
+2019-12-03 17:47:25,288 - tools.report.log_tool - INFO - ----请求用时: 167.297 秒数
+2019-12-03 17:47:25,289 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-03 17:47:25,289 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 09:47:23 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc1MzY4MjQzMjE4LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=","userName":"xx123456d"}}
+2019-12-03 17:47:25,405 - tools.report.log_tool - INFO - ----请求用时: 110.484 秒数
+2019-12-03 17:47:25,406 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getAll/1/4
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTc1MzY4MjQzMjE4LCJ1c2VySWQiOjIwMTYsInVzZXJOYW1lIjoieHgxMjM0NTZkIn0=
+
+None
+2019-12-03 17:47:25,406 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 03 Dec 2019 09:47:23 GMT
+
+{"code":2000,"message":"查询成功","data":[{"cstId":1,"cstName":"王","phone":"15123274197","certno":"320681199111107212","province":"上海","city":"上海","status":0,"createTime":"2019-10-11T00:32:29.000+0000","updateTime":"2019-10-11T00:32:29.000+0000","birthday":"2019-10-28T00:00:00.000+0000","sex":1,"email":"143976@qq.com"},{"cstId":2,"cstName":"刘能","phone":"15123274196","certno":"330781198509072891","province":"江西","city":"上海","status":0,"createTime":"2019-10-11T02:28:08.000+0000","updateTime":"2019-10-11T02:28:08.000+0000","birthday":"1985-09-07T00:00:00.000+0000","sex":0,"email":"1831937804@qq.com"},{"cstId":6,"cstName":null,"phone":"13483781387","certno":null,"province":null,"city":null,"status":0,"createTime":"2019-10-11T03:38:38.000+0000","updateTime":"2019-10-11T03:38:38.000+0000","birthday":null,"sex":null,"email":null},{"cstId":11,"cstName":null,"phone":"13606610876","certno":null,"province":null,"city":null,"status":0,"createTime":"2019-10-11T03:39:58.000+0000","updateTime":"2019-10-11T03:39:58.000+0000","birthday":null,"sex":null,"email":null}]}

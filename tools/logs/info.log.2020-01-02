@@ -1,0 +1,742 @@
+2020-01-02 15:30:21,294 - tools.report.log_tool - INFO - ----请求用时: 232.452 秒数
+2020-01-02 15:30:21,296 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 83
+
+b'{"phone": "13389387190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "den4235"}'
+2020-01-02 15:30:21,296 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 02 Jan 2020 07:30:21 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2020-01-02 15:30:37,819 - tools.report.log_tool - INFO - ----请求用时: 313.759 秒数
+2020-01-02 15:30:37,820 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13389387190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "denhh4235"}'
+2020-01-02 15:30:37,820 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 02 Jan 2020 07:30:37 GMT
+
+{"code":9999,"message":"已经存在这个手机号","data":""}
+2020-01-02 15:30:50,055 - tools.report.log_tool - INFO - ----请求用时: 229.669 秒数
+2020-01-02 15:30:50,055 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13389357190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "denhh4235"}'
+2020-01-02 15:30:50,055 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 02 Jan 2020 07:30:49 GMT
+
+{"code":2000,"message":"注册成功；用户ID:10702","data":{"userName":"denhh4235","accoutId":10702,"cstId":10797,"userId":10702}}
+2020-01-02 15:32:56,244 - tools.report.log_tool - INFO - ----请求用时: 183.762 秒数
+2020-01-02 15:32:56,244 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13389357190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "denhh4235"}'
+2020-01-02 15:32:56,244 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 02 Jan 2020 07:32:56 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2020-01-02 15:33:15,117 - tools.report.log_tool - INFO - ----请求用时: 244.992 秒数
+2020-01-02 15:33:15,117 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13319357190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "denoh4235"}'
+2020-01-02 15:33:15,118 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 02 Jan 2020 07:33:14 GMT
+
+{"code":2000,"message":"注册成功；用户ID:10703","data":{"userName":"denoh4235","accoutId":10703,"cstId":10798,"userId":10703}}
+2020-01-02 15:54:22,098 - tools.report.log_tool - INFO - ----请求用时: 317.52 秒数
+2020-01-02 15:54:22,098 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.devkeep.com/dev/common/sys/user/save
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 106
+
+b'{"sid": 15, "uid": 9, "mobile": "15523274199", "name": "\\u6d4b\\u8bd5", "password": "1234567", "roleId": 7}'
+2020-01-02 15:54:22,098 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 07:54:21 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":0,"message":"缺少应用ID！","data":null}
+2020-01-02 15:56:58,332 - tools.report.log_tool - INFO - ----请求用时: 179.297 秒数
+2020-01-02 15:56:58,332 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.devkeep.com/dev/common/sys/user/save
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 106
+
+b'{"sid": 18, "uid": 9, "mobile": "15523274199", "name": "\\u6d4b\\u8bd5", "password": "1234567", "roleId": 7}'
+2020-01-02 15:56:58,332 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 07:56:58 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":0,"message":"缺少应用ID！","data":null}
+2020-01-02 16:00:54,104 - tools.report.log_tool - INFO - ----请求用时: 304.856 秒数
+2020-01-02 16:00:54,105 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.devkeep.com/dev/common/sys/user/save
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 124
+
+b'{" appId": "room", "sid": 18, "uid": 9, "mobile": "15523274199", "name": "\\u6d4b\\u8bd5", "password": "1234567", "roleId": 7}'
+2020-01-02 16:00:54,105 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:00:53 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":0,"message":"缺少应用ID！","data":null}
+2020-01-02 16:01:06,172 - tools.report.log_tool - INFO - ----请求用时: 97.18 秒数
+2020-01-02 16:01:06,173 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.devkeep.com/dev/common/sys/user/save
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 124
+
+b'{" appId": "room", "sid": 13, "uid": 9, "mobile": "15523274199", "name": "\\u6d4b\\u8bd5", "password": "1234567", "roleId": 7}'
+2020-01-02 16:01:06,173 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:01:06 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":0,"message":"缺少应用ID！","data":null}
+2020-01-02 16:03:46,529 - tools.report.log_tool - INFO - ----请求用时: 160.625 秒数
+2020-01-02 16:03:46,530 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.devkeep.com/dev/common/sys/user/save
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 124
+
+b'{" appId": "room", "sid": 13, "uid": 9, "mobile": "15523274199", "name": "\\u6d4b\\u8bd5", "password": "1234567", "roleId": 7}'
+2020-01-02 16:03:46,530 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:03:46 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":0,"message":"缺少应用ID！","data":null}
+2020-01-02 16:08:25,731 - tools.report.log_tool - INFO - ----请求用时: 150.822 秒数
+2020-01-02 16:08:25,731 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 16:08:25,731 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:08:25 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577952505579}
+2020-01-02 16:09:52,729 - tools.report.log_tool - INFO - ----请求用时: 269.281 秒数
+2020-01-02 16:09:52,729 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 16:09:52,729 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:09:52 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577952592579}
+2020-01-02 16:17:05,031 - tools.report.log_tool - INFO - ----请求用时: 155.781 秒数
+2020-01-02 16:17:05,031 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 16:17:05,032 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:17:04 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577953024882}
+2020-01-02 16:17:05,035 - tools.report.log_tool - ERROR - Exception url: https://api.devkeep.com/dev/common/sys/user/save
+2020-01-02 16:17:05,039 - tools.report.log_tool - ERROR - Value for header {data: 1577953024882} must be of type str or bytes, not <class 'int'>
+2020-01-02 16:18:49,791 - tools.report.log_tool - INFO - ----请求用时: 162.016 秒数
+2020-01-02 16:18:49,791 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 16:18:49,791 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:18:49 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577953129623}
+2020-01-02 16:18:49,950 - tools.report.log_tool - INFO - ----请求用时: 154.9 秒数
+2020-01-02 16:18:49,950 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.devkeep.com/dev/common/sys/user/save
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+data: 1577953129623
+content-type: application/json;;charset=UTF-8
+Content-Length: 124
+
+b'{" appId": "room", "sid": 13, "uid": 9, "mobile": "15523274199", "name": "\\u6d4b\\u8bd5", "password": "1234567", "roleId": 7}'
+2020-01-02 16:18:49,951 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:18:49 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":0,"message":"缺少应用ID！","data":null}
+2020-01-02 16:19:22,806 - tools.report.log_tool - INFO - ----请求用时: 209.536 秒数
+2020-01-02 16:19:22,807 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 16:19:22,807 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:19:22 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577953162657}
+2020-01-02 16:19:23,026 - tools.report.log_tool - INFO - ----请求用时: 214.516 秒数
+2020-01-02 16:19:23,027 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.devkeep.com/dev/common/sys/user/save
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+data: 1577953162657
+content-type: application/json;;charset=UTF-8
+Content-Length: 124
+
+b'{" appId": "room", "sid": 13, "uid": 9, "mobile": "15523274199", "name": "\\u6d4b\\u8bd5", "password": "1234567", "roleId": 7}'
+2020-01-02 16:19:23,027 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:19:22 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":0,"message":"缺少应用ID！","data":null}
+2020-01-02 16:37:21,851 - tools.report.log_tool - INFO - ----请求用时: 170.944 秒数
+2020-01-02 16:37:21,851 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 16:37:21,851 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:37:21 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577954241698}
+2020-01-02 16:37:22,033 - tools.report.log_tool - INFO - ----请求用时: 177.261 秒数
+2020-01-02 16:37:22,033 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.devkeep.com/dev/common/sys/user/save
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+data: 1577954241698
+content-type: application/json;;charset=UTF-8
+Content-Length: 215
+
+b'{"timestamp": {"data": "1577954241698", "content-type": "application/json;;charset=UTF-8"}, " appId": "room", "sid": 13, "uid": 9, "mobile": "15523274199", "name": "\\u6d4b\\u8bd5", "password": "1234567", "roleId": 7}'
+2020-01-02 16:37:22,034 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:37:21 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":0,"message":"缺少参数或参数格式错误！","data":null}
+2020-01-02 16:47:32,977 - tools.report.log_tool - INFO - ----请求用时: 157.421 秒数
+2020-01-02 16:47:32,977 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 16:47:32,977 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:47:32 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577954852829}
+2020-01-02 16:47:33,128 - tools.report.log_tool - INFO - ----请求用时: 156.08 秒数
+2020-01-02 16:47:33,128 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.devkeep.com/dev/common/sys/user/save
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+data: roomWzff0i4Fua5Hb4XxFqQKy3s1LRNt6CpG1577954852829
+content-type: application/json;;charset=UTF-8
+Content-Length: 251
+
+b'{"timestamp": {"data": "roomWzff0i4Fua5Hb4XxFqQKy3s1LRNt6CpG1577954852829", "content-type": "application/json;;charset=UTF-8"}, " appId": "room", "sid": 13, "uid": 9, "mobile": "15523274199", "name": "\\u6d4b\\u8bd5", "password": "1234567", "roleId": 7}'
+2020-01-02 16:47:33,128 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:47:32 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":0,"message":"缺少参数或参数格式错误！","data":null}
+2020-01-02 16:54:33,954 - tools.report.log_tool - INFO - ----请求用时: 113.863 秒数
+2020-01-02 16:54:33,954 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 16:54:33,954 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:54:33 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577955273809}
+2020-01-02 16:58:14,758 - tools.report.log_tool - INFO - ----请求用时: 191.782 秒数
+2020-01-02 16:58:14,758 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 16:58:14,758 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 08:58:14 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577955494606}
+2020-01-02 17:09:50,278 - tools.report.log_tool - INFO - ----请求用时: 168.583 秒数
+2020-01-02 17:09:50,279 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 17:09:50,279 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 09:09:50 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577956190134}
+2020-01-02 17:15:34,589 - tools.report.log_tool - INFO - ----请求用时: 170.712 秒数
+2020-01-02 17:15:34,590 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 17:15:34,590 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 09:15:34 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577956534446}
+2020-01-02 17:16:02,748 - tools.report.log_tool - INFO - ----请求用时: 167.75 秒数
+2020-01-02 17:16:02,748 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 17:16:02,749 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 09:16:02 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577956562602}
+2020-01-02 17:16:02,753 - tools.report.log_tool - ERROR - Exception url: https://api.devkeep.com/dev/common/sys/user/save
+2020-01-02 17:16:02,753 - tools.report.log_tool - ERROR - Value for header {data: ('1577956562602', 'roomWzff0i4Fua5Hb4XxFqQKy3s1LRNt6CpG1577956562602')} must be of type str or bytes, not <class 'tuple'>
+2020-01-02 17:16:56,872 - tools.report.log_tool - INFO - ----请求用时: 164.229 秒数
+2020-01-02 17:16:56,872 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 17:16:56,873 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 09:16:56 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577956616722}
+2020-01-02 17:16:56,877 - tools.report.log_tool - ERROR - Exception url: https://api.devkeep.com/dev/common/sys/user/save
+2020-01-02 17:16:56,877 - tools.report.log_tool - ERROR - Value for header {data: ('1577956616722', 'roomWzff0i4Fua5Hb4XxFqQKy3s1LRNt6CpG1577956616722')} must be of type str or bytes, not <class 'tuple'>
+2020-01-02 17:20:46,437 - tools.report.log_tool - INFO - ----请求用时: 194.064 秒数
+2020-01-02 17:20:46,438 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 17:20:46,438 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 09:20:46 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577956846295}
+2020-01-02 17:20:46,442 - tools.report.log_tool - ERROR - Exception url: https://api.devkeep.com/dev/common/sys/user/save
+2020-01-02 17:20:46,442 - tools.report.log_tool - ERROR - Value for header {data: ('1577956846295', 'roomWzff0i4Fua5Hb4XxFqQKy3s1LRNt6CpG1577956846295')} must be of type str or bytes, not <class 'tuple'>
+2020-01-02 17:21:23,160 - tools.report.log_tool - INFO - ----请求用时: 85.639 秒数
+2020-01-02 17:21:23,160 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 17:21:23,160 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 09:21:23 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577956883018}
+2020-01-02 17:22:55,427 - tools.report.log_tool - INFO - ----请求用时: 167.207 秒数
+2020-01-02 17:22:55,427 - tools.report.log_tool - INFO - -------------------request-------------
+https://api.bensue.com/test/common/out/tool/timestamp
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 0
+
+None
+2020-01-02 17:22:55,427 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Date: Thu, 02 Jan 2020 09:22:55 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Headers: X-Requested-With,Content-Type
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Credentials: true
+
+{"status":1,"message":"获取系统时间戳！","data":1577956975286}
+2020-01-02 17:22:55,431 - tools.report.log_tool - ERROR - Exception url: https://api.devkeep.com/dev/common/sys/user/save
+2020-01-02 17:22:55,432 - tools.report.log_tool - ERROR - Value for header {data: ('1577956975286', 'roomWzff0i4Fua5Hb4XxFqQKy3s1LRNt6CpG1577956975286')} must be of type str or bytes, not <class 'tuple'>
+2020-01-02 17:40:25,075 - tools.report.log_tool - INFO - ----请求用时: 313.263 秒数
+2020-01-02 17:40:25,075 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2020-01-02 17:40:25,075 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 02 Jan 2020 09:40:24 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2020-01-02 17:41:00,803 - tools.report.log_tool - INFO - ----请求用时: 196.866 秒数
+2020-01-02 17:41:00,803 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13319357190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "denoh4235"}'
+2020-01-02 17:41:00,803 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 02 Jan 2020 09:41:00 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2020-01-02 17:44:51,553 - tools.report.log_tool - INFO - ----请求用时: 195.105 秒数
+2020-01-02 17:44:51,553 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-01-02 17:44:51,553 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 02 Jan 2020 09:44:51 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc3OTYwMDkxNDEwLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==","userName":"dxhd123456"}}
+2020-01-02 17:44:51,648 - tools.report.log_tool - INFO - ----请求用时: 90.626 秒数
+2020-01-02 17:44:51,648 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=15123274197
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTc3OTYwMDkxNDEwLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-01-02 17:44:51,649 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 02 Jan 2020 09:44:51 GMT
+
+{"code":2000,"message":"查询成功","data":[{"cstId":1,"cstName":"王","phone":"15123274197","certno":"320681199111107212","province":"上海","city":"上海","status":1,"createTime":"2019-10-11T00:32:29.000+0000","updateTime":"2019-10-11T00:32:29.000+0000","birthday":"2019-10-28T00:00:00.000+0000","sex":1,"email":"143976@qq.com"}]}
+2020-01-02 17:44:51,787 - tools.report.log_tool - INFO - ----请求用时: 137.695 秒数
+2020-01-02 17:44:51,787 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/acc/getAccInfo?accountName=dengxin12
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;charset=UTF-8
+
+None
+2020-01-02 17:44:51,787 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 02 Jan 2020 09:44:51 GMT
+
+{"accoutId":1,"accountName":"dengxin12","cstId":1,"balance":180011037,"status":0,"createTime":"2019-10-11T00:32:29.000+0000","updateTime":"2019-10-11T00:32:29.000+0000","operateUserId":null}

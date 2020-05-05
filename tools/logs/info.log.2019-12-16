@@ -1,0 +1,36 @@
+2019-12-16 09:40:10,860 - tools.report.log_tool - INFO - ----请求用时: 373.973 秒数
+2019-12-16 09:40:10,868 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-16 09:40:10,868 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 16 Dec 2019 01:40:08 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-12-16 10:01:06,064 - tools.report.log_tool - INFO - ----请求用时: 203.794 秒数
+2019-12-16 10:01:06,067 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "6XiXxe6w", "userName": "xx123456d"}'
+2019-12-16 10:01:06,067 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 16 Dec 2019 02:01:04 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}

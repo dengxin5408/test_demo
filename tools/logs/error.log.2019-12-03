@@ -1,0 +1,6 @@
+2019-12-03 15:14:07,693 - tools.report.log_tool - ERROR - Exception url: http://api.yansl.com:8084/cst/getCustomer
+2019-12-03 15:14:07,700 - tools.report.log_tool - ERROR - too many values to unpack (expected 2)
+2019-12-03 15:20:21,974 - tools.report.log_tool - ERROR - Exception url: http://api.yansl.com:8084/cst/getCustomer
+2019-12-03 15:20:21,974 - tools.report.log_tool - ERROR - too many values to unpack (expected 2)
+2019-12-03 15:36:02,926 - tools.report.log_tool - ERROR - Exception url: http://api.yansl.com:8084/cst/getCustomer
+2019-12-03 15:36:02,926 - tools.report.log_tool - ERROR - too many values to unpack (expected 2)

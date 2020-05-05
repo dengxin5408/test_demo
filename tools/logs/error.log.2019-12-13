@@ -1,0 +1,2 @@
+2019-12-13 14:31:28,692 - tools.report.log_tool - ERROR - Exception url: http://api.yansl.com:8084/user/lock
+2019-12-13 14:31:28,702 - tools.report.log_tool - ERROR - too many values to unpack (expected 2)

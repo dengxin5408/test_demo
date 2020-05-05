@@ -1,0 +1,54 @@
+2019-12-01 20:14:06,536 - tools.report.log_tool - INFO - ----请求用时: 280.483 秒数
+2019-12-01 20:14:06,539 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"phone": "15801514476", "pwd": "P24N3yaQ", "rePwd": "P24N3yaQ", "userName": "loushan20"}'
+2019-12-01 20:14:06,540 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 01 Dec 2019 12:14:05 GMT
+
+{"code":2000,"message":"注册成功；用户ID:357","data":{"userName":"loushan20","accoutId":335,"cstId":416,"userId":357}}
+2019-12-01 20:32:15,602 - tools.report.log_tool - INFO - ----请求用时: 278.943 秒数
+2019-12-01 20:32:15,603 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-12-01 20:32:15,604 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 01 Dec 2019 12:32:14 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-12-01 20:55:59,625 - tools.report.log_tool - INFO - ----请求用时: 283.479 秒数
+2019-12-01 20:55:59,625 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 88
+
+b'{"phone": "17768362095", "pwd": "R7CGXO4q", "rePwd": "R7CGXO4q", "userName": "yuanqy18"}'
+2019-12-01 20:55:59,625 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 01 Dec 2019 12:55:58 GMT
+
+{"code":2000,"message":"注册成功；用户ID:358","data":{"userName":"yuanqy18","accoutId":336,"cstId":417,"userId":358}}

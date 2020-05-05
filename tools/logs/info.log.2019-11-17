@@ -1,0 +1,595 @@
+2019-11-17 16:23:49,638 - tools.report.log_tool - INFO - ----请求用时: 437.392 秒数
+2019-11-17 16:23:49,639 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 90
+
+b'{"phone": "15749295908", "pwd": "I4Kb8J17", "rePwd": "I4Kb8J17", "userName": "chengzhi60"}'
+2019-11-17 16:23:49,640 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 08:23:49 GMT
+
+{"code":2000,"message":"注册成功；用户ID:136","data":{"userName":"chengzhi60","accoutId":114,"cstId":185,"userId":136}}
+2019-11-17 16:27:50,181 - tools.report.log_tool - INFO - ----请求用时: 236.621 秒数
+2019-11-17 16:27:50,182 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "Aa123456", "userName": "wuling12"}'
+2019-11-17 16:27:50,182 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 08:27:50 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-11-17 16:33:25,619 - tools.report.log_tool - INFO - ----请求用时: 181.356 秒数
+2019-11-17 16:33:25,619 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "Aa123457", "userName": "wuling12"}'
+2019-11-17 16:33:25,619 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 08:33:25 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-11-17 16:42:26,178 - tools.report.log_tool - INFO - ----请求用时: 242.241 秒数
+2019-11-17 16:42:26,179 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 42
+
+b'{"pwd": "3Pf9a3ou", "userName": "weiyz58"}'
+2019-11-17 16:42:26,179 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 08:42:26 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-11-17 16:52:50,798 - tools.report.log_tool - INFO - ----请求用时: 496.159 秒数
+2019-11-17 16:52:50,798 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "Aa123456", "userName": "wuling12"}'
+2019-11-17 16:52:50,798 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 08:52:50 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-11-17 16:53:32,174 - tools.report.log_tool - INFO - ----请求用时: 429.234 秒数
+2019-11-17 16:53:32,174 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"phone": "15028843321", "pwd": "Mn4wvAEG", "rePwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 16:53:32,174 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 08:53:32 GMT
+
+{"code":2000,"message":"注册成功；用户ID:158","data":{"userName":"qinxiao82","accoutId":136,"cstId":207,"userId":158}}
+2019-11-17 16:58:41,379 - tools.report.log_tool - INFO - ----请求用时: 184.316 秒数
+2019-11-17 16:58:41,379 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 16:58:41,380 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 08:58:41 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTczOTgyOTIxMzE0LCJ1c2VySWQiOjE1OCwidXNlck5hbWUiOiJxaW54aWFvODIifQ==","userName":"qinxiao82"}}
+2019-11-17 16:58:41,561 - tools.report.log_tool - INFO - ----请求用时: 174.423 秒数
+2019-11-17 16:58:41,562 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/user/changepwd
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTczOTgyOTIxMzE0LCJ1c2VySWQiOjE1OCwidXNlck5hbWUiOiJxaW54aWFvODIifQ==
+content-type: application/json;;charset=UTF-8
+Content-Length: 93
+
+b'{"newPwd": "bPT8S7Va", "oldPwd": "Mn4wvAEG", "reNewPwd": "bPT8S7Va", "userName": "qinxiao82"}'
+2019-11-17 16:58:41,562 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 08:58:41 GMT
+
+{"code":2000,"message":"修改成功1","data":""}
+2019-11-17 16:59:09,810 - tools.report.log_tool - INFO - ----请求用时: 260.294 秒数
+2019-11-17 16:59:09,811 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 16:59:09,811 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 08:59:09 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-11-17 17:46:51,327 - tools.report.log_tool - INFO - ----请求用时: 239.412 秒数
+2019-11-17 17:46:51,327 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "Aa123456", "userName": "wuling12"}'
+2019-11-17 17:46:51,327 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 09:46:51 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-11-17 17:46:51,560 - tools.report.log_tool - INFO - ----请求用时: 222.889 秒数
+2019-11-17 17:46:51,560 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"phone": "13057133922", "pwd": "hG9DydYn", "rePwd": "hG9DydYn", "userName": "youying65"}'
+2019-11-17 17:46:51,560 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 09:46:51 GMT
+
+{"code":2000,"message":"注册成功；用户ID:209","data":{"userName":"youying65","accoutId":187,"cstId":258,"userId":209}}
+2019-11-17 17:46:51,774 - tools.report.log_tool - INFO - ----请求用时: 203.998 秒数
+2019-11-17 17:46:51,775 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 17:46:51,775 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 09:46:51 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-11-17 17:52:27,812 - tools.report.log_tool - INFO - ----请求用时: 233.32 秒数
+2019-11-17 17:52:27,812 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "Aa123456", "userName": "wuling12"}'
+2019-11-17 17:52:27,812 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 09:52:27 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-11-17 17:52:28,032 - tools.report.log_tool - INFO - ----请求用时: 213.834 秒数
+2019-11-17 17:52:28,032 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 86
+
+b'{"phone": "18123701926", "pwd": "jEPGeM3X", "rePwd": "jEPGeM3X", "userName": "liyt56"}'
+2019-11-17 17:52:28,032 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 09:52:27 GMT
+
+{"code":2000,"message":"注册成功；用户ID:216","data":{"userName":"liyt56","accoutId":194,"cstId":265,"userId":216}}
+2019-11-17 17:52:28,242 - tools.report.log_tool - INFO - ----请求用时: 199.554 秒数
+2019-11-17 17:52:28,243 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 17:52:28,243 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 09:52:27 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-11-17 17:53:11,247 - tools.report.log_tool - INFO - ----请求用时: 254.68 秒数
+2019-11-17 17:53:11,248 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "Aa123456", "userName": "wuling12"}'
+2019-11-17 17:53:11,248 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 09:53:11 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-11-17 17:53:11,499 - tools.report.log_tool - INFO - ----请求用时: 238.761 秒数
+2019-11-17 17:53:11,499 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 86
+
+b'{"phone": "18335622577", "pwd": "O53FcX2Q", "rePwd": "O53FcX2Q", "userName": "tusl58"}'
+2019-11-17 17:53:11,499 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 09:53:11 GMT
+
+{"code":2000,"message":"注册成功；用户ID:217","data":{"userName":"tusl58","accoutId":195,"cstId":266,"userId":217}}
+2019-11-17 17:53:11,709 - tools.report.log_tool - INFO - ----请求用时: 200.468 秒数
+2019-11-17 17:53:11,709 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 17:53:11,710 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 09:53:11 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-11-17 18:10:13,972 - tools.report.log_tool - INFO - ----请求用时: 246.632 秒数
+2019-11-17 18:10:13,973 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 18:10:13,973 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:10:13 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-11-17 18:10:31,356 - tools.report.log_tool - INFO - ----请求用时: 170.092 秒数
+2019-11-17 18:10:31,357 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "Aa123456", "userName": "wuling12"}'
+2019-11-17 18:10:31,357 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:10:31 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-11-17 18:10:31,584 - tools.report.log_tool - INFO - ----请求用时: 213.844 秒数
+2019-11-17 18:10:31,584 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 87
+
+b'{"phone": "18932401699", "pwd": "REKNz47v", "rePwd": "REKNz47v", "userName": "chuxr80"}'
+2019-11-17 18:10:31,584 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:10:31 GMT
+
+{"code":2000,"message":"注册成功；用户ID:226","data":{"userName":"chuxr80","accoutId":204,"cstId":275,"userId":226}}
+2019-11-17 18:10:31,793 - tools.report.log_tool - INFO - ----请求用时: 198.217 秒数
+2019-11-17 18:10:31,794 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 18:10:31,794 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:10:31 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-11-17 18:11:18,214 - tools.report.log_tool - INFO - ----请求用时: 232.981 秒数
+2019-11-17 18:11:18,215 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "Aa123456", "userName": "wuling12"}'
+2019-11-17 18:11:18,215 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:11:18 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-11-17 18:11:18,452 - tools.report.log_tool - INFO - ----请求用时: 222.183 秒数
+2019-11-17 18:11:18,452 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 86
+
+b'{"phone": "18118450225", "pwd": "WHnBdU4A", "rePwd": "WHnBdU4A", "userName": "boyw11"}'
+2019-11-17 18:11:18,452 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:11:18 GMT
+
+{"code":2000,"message":"注册成功；用户ID:227","data":{"userName":"boyw11","accoutId":205,"cstId":276,"userId":227}}
+2019-11-17 18:11:18,656 - tools.report.log_tool - INFO - ----请求用时: 197.17 秒数
+2019-11-17 18:11:18,656 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 18:11:18,657 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:11:18 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-11-17 18:11:54,410 - tools.report.log_tool - INFO - ----请求用时: 233.195 秒数
+2019-11-17 18:11:54,411 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "Aa123456", "userName": "wuling12"}'
+2019-11-17 18:11:54,411 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:11:54 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-11-17 18:11:54,651 - tools.report.log_tool - INFO - ----请求用时: 219.325 秒数
+2019-11-17 18:11:54,651 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 88
+
+b'{"phone": "15318884643", "pwd": "u0WQEoBQ", "rePwd": "u0WQEoBQ", "userName": "gongsb78"}'
+2019-11-17 18:11:54,651 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:11:54 GMT
+
+{"code":2000,"message":"注册成功；用户ID:228","data":{"userName":"gongsb78","accoutId":206,"cstId":277,"userId":228}}
+2019-11-17 18:11:54,868 - tools.report.log_tool - INFO - ----请求用时: 202.087 秒数
+2019-11-17 18:11:54,868 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 18:11:54,868 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:11:54 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-11-17 18:13:12,868 - tools.report.log_tool - INFO - ----请求用时: 236.644 秒数
+2019-11-17 18:13:12,869 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 43
+
+b'{"pwd": "Aa123456", "userName": "wuling12"}'
+2019-11-17 18:13:12,869 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:13:12 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2019-11-17 18:13:13,117 - tools.report.log_tool - INFO - ----请求用时: 219.387 秒数
+2019-11-17 18:13:13,118 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 87
+
+b'{"phone": "17834891739", "pwd": "IqliZXs8", "rePwd": "IqliZXs8", "userName": "niuzj32"}'
+2019-11-17 18:13:13,118 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:13:12 GMT
+
+{"code":2000,"message":"注册成功；用户ID:229","data":{"userName":"niuzj32","accoutId":207,"cstId":278,"userId":229}}
+2019-11-17 18:13:13,361 - tools.report.log_tool - INFO - ----请求用时: 207.864 秒数
+2019-11-17 18:13:13,362 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 18:13:13,362 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:13:12 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-11-17 18:18:06,916 - tools.report.log_tool - INFO - ----请求用时: 948.502 秒数
+2019-11-17 18:18:06,916 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 18:18:06,916 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:18:06 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2019-11-17 18:18:11,868 - tools.report.log_tool - INFO - ----请求用时: 198.591 秒数
+2019-11-17 18:18:11,868 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 44
+
+b'{"pwd": "Mn4wvAEG", "userName": "qinxiao82"}'
+2019-11-17 18:18:11,869 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 17 Nov 2019 10:18:11 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}

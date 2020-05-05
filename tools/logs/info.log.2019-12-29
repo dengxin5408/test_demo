@@ -1,0 +1,288 @@
+2019-12-29 11:40:32,526 - tools.report.log_tool - INFO - ----请求用时: 249.619 秒数
+2019-12-29 11:40:32,533 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 85
+Content-Type: application/json
+
+b'{"phone": "13038366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx5235"}'
+2019-12-29 11:40:32,534 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:40:30 GMT
+
+{"code":2000,"message":"注册成功；用户ID:10530","data":{"userName":"dengx5235","accoutId":10530,"cstId":10625,"userId":10530}}
+2019-12-29 11:44:30,325 - tools.report.log_tool - INFO - ----请求用时: 178.847 秒数
+2019-12-29 11:44:30,327 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 85
+Content-Type: application/json
+
+b'{"phone": "13038366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx5235"}'
+2019-12-29 11:44:30,328 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:44:28 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2019-12-29 11:46:18,424 - tools.report.log_tool - INFO - ----请求用时: 198.698 秒数
+2019-12-29 11:46:18,425 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 85
+Content-Type: application/json
+
+b'{"phone": "13038366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:46:18,425 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:46:16 GMT
+
+{"code":9999,"message":"已经存在这个手机号","data":""}
+2019-12-29 11:46:31,346 - tools.report.log_tool - INFO - ----请求用时: 164.93 秒数
+2019-12-29 11:46:31,346 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 84
+Content-Type: application/json
+
+b'{"phone": "1303366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:46:31,352 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:46:29 GMT
+
+{"code":9999,"message":"手机号码格式错误；","data":""}
+2019-12-29 11:46:46,552 - tools.report.log_tool - INFO - ----请求用时: 158.601 秒数
+2019-12-29 11:46:46,553 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 84
+Content-Type: application/json
+
+b'{"phone": "1373366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:46:46,554 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:46:44 GMT
+
+{"code":9999,"message":"手机号码格式错误；","data":""}
+2019-12-29 11:47:13,079 - tools.report.log_tool - INFO - ----请求用时: 324.379 秒数
+2019-12-29 11:47:13,081 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 85
+Content-Type: application/json
+
+b'{"phone": "13983366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:47:13,082 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:47:11 GMT
+
+{"code":2000,"message":"注册成功；用户ID:10531","data":{"userName":"dengx4235","accoutId":10531,"cstId":10626,"userId":10531}}
+2019-12-29 11:56:03,812 - tools.report.log_tool - INFO - ----请求用时: 178.081 秒数
+2019-12-29 11:56:03,813 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13983366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:56:03,813 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:56:01 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2019-12-29 11:56:29,590 - tools.report.log_tool - INFO - ----请求用时: 175.989 秒数
+2019-12-29 11:56:29,590 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13883366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:56:29,591 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:56:27 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2019-12-29 11:56:41,891 - tools.report.log_tool - INFO - ----请求用时: 181.243 秒数
+2019-12-29 11:56:41,891 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13683366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:56:41,892 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:56:39 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2019-12-29 11:57:27,154 - tools.report.log_tool - INFO - ----请求用时: 174.832 秒数
+2019-12-29 11:57:27,155 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13583366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:57:27,155 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:57:25 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2019-12-29 11:57:37,915 - tools.report.log_tool - INFO - ----请求用时: 179.604 秒数
+2019-12-29 11:57:37,916 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13483366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:57:37,916 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:57:36 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2019-12-29 11:57:54,670 - tools.report.log_tool - INFO - ----请求用时: 176.515 秒数
+2019-12-29 11:57:54,670 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13383366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:57:54,671 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:57:52 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2019-12-29 11:58:05,217 - tools.report.log_tool - INFO - ----请求用时: 166.983 秒数
+2019-12-29 11:58:05,217 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13389366190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:58:05,217 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:58:03 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2019-12-29 11:58:17,432 - tools.report.log_tool - INFO - ----请求用时: 168.787 秒数
+2019-12-29 11:58:17,432 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 86
+
+b'{"phone": "133893876190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:58:17,433 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:58:15 GMT
+
+{"code":9999,"message":"手机号码格式错误；","data":""}
+2019-12-29 11:58:27,123 - tools.report.log_tool - INFO - ----请求用时: 174.923 秒数
+2019-12-29 11:58:27,124 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13389387190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "dengx4235"}'
+2019-12-29 11:58:27,124 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:58:25 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2019-12-29 11:58:41,305 - tools.report.log_tool - INFO - ----请求用时: 214.559 秒数
+2019-12-29 11:58:41,306 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 83
+
+b'{"phone": "13389387190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "den4235"}'
+2019-12-29 11:58:41,306 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 29 Dec 2019 03:58:39 GMT
+
+{"code":2000,"message":"注册成功；用户ID:10532","data":{"userName":"den4235","accoutId":10532,"cstId":10627,"userId":10532}}

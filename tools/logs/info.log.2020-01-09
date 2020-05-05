@@ -1,0 +1,90 @@
+2020-01-09 13:40:24,742 - tools.report.log_tool - INFO - ----请求用时: 429.955 秒数
+2020-01-09 13:40:24,750 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-01-09 13:40:24,751 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 09 Jan 2020 05:40:24 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTc4NTUwMjI0MDE3LCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==","userName":"dxhd123456"}}
+2020-01-09 13:40:24,855 - tools.report.log_tool - INFO - ----请求用时: 98.524 秒数
+2020-01-09 13:40:24,856 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/user/lock
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: pub_dic
+Content-Length: 18
+Content-Type: application/x-www-form-urlencoded
+
+userName=jinqian78
+2020-01-09 13:40:24,861 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Thu, 09 Jan 2020 05:40:24 GMT
+
+{"code":9999,"data":"","message":"登录失效或者token过期"}
+2020-01-09 13:42:27,421 - tools.report.log_tool - INFO - ----请求用时: 177.269 秒数
+2020-01-09 13:42:27,422 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13319357190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "denoh4235"}'
+2020-01-09 13:42:27,422 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 09 Jan 2020 05:42:26 GMT
+
+{"code":9999,"message":"该用户名已存在","data":""}
+2020-01-09 13:42:50,325 - tools.report.log_tool - INFO - ----请求用时: 245.941 秒数
+2020-01-09 13:42:50,326 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 85
+
+b'{"phone": "13318357190", "pwd": "5235dx", "rePwd": "5235dx", "userName": "denyh4235"}'
+2020-01-09 13:42:50,327 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 09 Jan 2020 05:42:49 GMT
+
+{"code":2000,"message":"注册成功；用户ID:11119","data":{"userName":"denyh4235","accoutId":11119,"cstId":11214,"userId":11119}}
+2020-01-09 13:43:59,268 - tools.report.log_tool - INFO - ----请求用时: 233.771 秒数
+2020-01-09 13:43:59,269 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 86
+
+b'{"phone": "15301184607", "pwd": "J36oH5PS", "rePwd": "J36oH5PS", "userName": "qiqe91"}'
+2020-01-09 13:43:59,269 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 09 Jan 2020 05:43:58 GMT
+
+{"code":2000,"message":"注册成功；用户ID:11120","data":{"userName":"qiqe91","accoutId":11120,"cstId":11215,"userId":11120}}
