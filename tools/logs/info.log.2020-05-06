@@ -1,0 +1,621 @@
+2020-05-05 11:52:13,994 - tools.report.log_tool - INFO - ----请求用时: 323.19 秒数
+2020-05-05 11:52:14,001 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-05-05 11:52:14,002 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 03:52:07 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTg4NjUyNTI3MTE3LCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==","userName":"dxhd123456"}}
+2020-05-05 11:52:14,562 - tools.report.log_tool - INFO - ----请求用时: 544.258 秒数
+2020-05-05 11:52:14,563 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=phone
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjUyNTI3MTE3LCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 11:52:14,563 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 03:52:07 GMT
+
+{"code":9999,"message":"没有此手机号","data":""}
+2020-05-05 11:52:14,775 - tools.report.log_tool - INFO - ----请求用时: 147.992 秒数
+2020-05-05 11:52:14,776 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=phone
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjUyNTI3MTE3LCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 11:52:14,776 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 03:52:07 GMT
+
+{"code":9999,"message":"没有此手机号","data":""}
+2020-05-05 11:52:14,912 - tools.report.log_tool - INFO - ----请求用时: 110.904 秒数
+2020-05-05 11:52:14,912 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=phone
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjUyNTI3MTE3LCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 11:52:14,912 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 03:52:07 GMT
+
+{"code":9999,"message":"没有此手机号","data":""}
+2020-05-05 11:52:15,041 - tools.report.log_tool - INFO - ----请求用时: 116.873 秒数
+2020-05-05 11:52:15,041 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=phone
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjUyNTI3MTE3LCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 11:52:15,041 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 03:52:08 GMT
+
+{"code":9999,"message":"没有此手机号","data":""}
+2020-05-05 11:52:15,294 - tools.report.log_tool - INFO - ----请求用时: 238.821 秒数
+2020-05-05 11:52:15,295 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=phone
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjUyNTI3MTE3LCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 11:52:15,296 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 03:52:08 GMT
+
+{"code":9999,"message":"没有此手机号","data":""}
+2020-05-05 22:28:21,378 - tools.report.log_tool - INFO - ----请求用时: 665.5 秒数
+2020-05-05 22:28:21,378 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-05-05 22:28:21,379 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:14 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTg4NjkwNjk0NDgzLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==","userName":"dxhd123456"}}
+2020-05-05 22:28:21,734 - tools.report.log_tool - INFO - ----请求用时: 342.758 秒数
+2020-05-05 22:28:21,734 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=phone
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjkwNjk0NDgzLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 22:28:21,735 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:14 GMT
+
+{"code":9999,"message":"没有此手机号","data":""}
+2020-05-05 22:28:21,961 - tools.report.log_tool - INFO - ----请求用时: 114.484 秒数
+2020-05-05 22:28:21,961 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=phone
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjkwNjk0NDgzLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 22:28:21,961 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:14 GMT
+
+{"code":9999,"message":"没有此手机号","data":""}
+2020-05-05 22:28:22,090 - tools.report.log_tool - INFO - ----请求用时: 107.621 秒数
+2020-05-05 22:28:22,090 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=phone
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjkwNjk0NDgzLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 22:28:22,091 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:14 GMT
+
+{"code":9999,"message":"没有此手机号","data":""}
+2020-05-05 22:28:22,214 - tools.report.log_tool - INFO - ----请求用时: 107.316 秒数
+2020-05-05 22:28:22,214 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=phone
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjkwNjk0NDgzLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 22:28:22,214 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:14 GMT
+
+{"code":9999,"message":"没有此手机号","data":""}
+2020-05-05 22:28:22,341 - tools.report.log_tool - INFO - ----请求用时: 107.952 秒数
+2020-05-05 22:28:22,342 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=phone
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjkwNjk0NDgzLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 22:28:22,342 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:14 GMT
+
+{"code":9999,"message":"没有此手机号","data":""}
+2020-05-05 22:28:22,500 - tools.report.log_tool - INFO - ----请求用时: 133.251 秒数
+2020-05-05 22:28:22,501 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=15123274197
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjkwNjk0NDgzLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 22:28:22,501 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:15 GMT
+
+{"code":2000,"message":"查询成功","data":[{"cstId":1,"cstName":"王明","phone":"15123274197","certno":"142709199407289929","province":"string","city":"string","status":1,"createTime":"2019-10-11T00:32:29.000+0000","updateTime":"2019-10-11T00:32:29.000+0000","birthday":"1998-12-23T16:00:00.000+0000","sex":1,"email":"767yy77@qq.com"}]}
+2020-05-05 22:28:22,657 - tools.report.log_tool - INFO - ----请求用时: 114.275 秒数
+2020-05-05 22:28:22,658 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/user/lock
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: pub_dic
+Content-Length: 18
+Content-Type: application/x-www-form-urlencoded
+
+userName=jinqian78
+2020-05-05 22:28:22,662 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:15 GMT
+
+{"code":9999,"data":"","message":"登录失效或者token过期"}
+2020-05-05 22:28:24,068 - tools.report.log_tool - INFO - ----请求用时: 378.15 秒数
+2020-05-05 22:28:24,068 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/acc/recharge
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 49
+
+b'{"accountName": "jinqian78", "changeMoney": 1000}'
+2020-05-05 22:28:24,069 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:17 GMT
+
+{"code":2000,"message":"充值成功;账户余额5000分","data":""}
+2020-05-05 22:28:24,216 - tools.report.log_tool - INFO - ----请求用时: 129.817 秒数
+2020-05-05 22:28:24,217 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=15123274197
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjkwNjk0NDgzLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 22:28:24,217 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:17 GMT
+
+{"code":2000,"message":"查询成功","data":[{"cstId":1,"cstName":"王明","phone":"15123274197","certno":"142709199407289929","province":"string","city":"string","status":1,"createTime":"2019-10-11T00:32:29.000+0000","updateTime":"2019-10-11T00:32:29.000+0000","birthday":"1998-12-23T16:00:00.000+0000","sex":1,"email":"767yy77@qq.com"}]}
+2020-05-05 22:28:24,488 - tools.report.log_tool - INFO - ----请求用时: 249.471 秒数
+2020-05-05 22:28:24,489 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/acc/getAccInfo?accountName=dengxin12
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;charset=UTF-8
+
+None
+2020-05-05 22:28:24,489 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:17 GMT
+
+{"code":2000,"message":"查询成功","data":{"accoutId":1,"accountName":"dengxin12","cstId":1,"balance":200,"status":0,"createTime":"2019-10-11T00:32:29.000+0000","updateTime":"2019-10-11T00:32:29.000+0000","operateUserId":null}}
+2020-05-05 22:28:24,958 - tools.report.log_tool - INFO - ----请求用时: 435.79 秒数
+2020-05-05 22:28:24,959 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 41
+
+b'{"pwd": "qYFn2Y4a", "userName": "xiewu1"}'
+2020-05-05 22:28:24,959 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:18 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTg4NjkwNjk4MTQ2LCJ1c2VySWQiOjcsInVzZXJOYW1lIjoieGlld3UxIn0=","userName":"xiewu1"}}
+2020-05-05 22:28:25,158 - tools.report.log_tool - INFO - ----请求用时: 165.557 秒数
+2020-05-05 22:28:25,158 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 40
+
+b'{"pwd": "qYFn2Y4a", "userName": "xiewu"}'
+2020-05-05 22:28:25,159 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:18 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2020-05-05 22:28:25,375 - tools.report.log_tool - INFO - ----请求用时: 186.365 秒数
+2020-05-05 22:28:25,375 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 40
+
+b'{"pwd": "qYFn2Y4", "userName": "xiewu1"}'
+2020-05-05 22:28:25,376 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:18 GMT
+
+{"code":9999,"message":"登录失败,密码错误","data":""}
+2020-05-05 22:28:25,647 - tools.report.log_tool - INFO - ----请求用时: 226.393 秒数
+2020-05-05 22:28:25,647 - tools.report.log_tool - INFO - -------------------request-------------
+http://www.guoyasoft.com:8084/cst/realname
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjkwNjk0NDgzLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+charset: UTF-8
+content-type: application/json;;charset=UTF-8
+Content-Length: 204
+
+b'{"cstId": 7, "birthday": "19870505", "certno": "321324198705057621", "city": "\\u5bbf\\u8fc1\\u5e02", "cstName": "\\u6728\\u59ec\\u96ea", "email": "SA736rfW@ask.com", "province": "\\u6c5f\\u82cf\\u7701", "sex": 1}'
+2020-05-05 22:28:25,648 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:18 GMT
+
+{"code":2000,"message":"认证成功","data":""}
+2020-05-05 22:28:26,631 - tools.report.log_tool - INFO - ----请求用时: 954.371 秒数
+2020-05-05 22:28:26,632 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 88
+
+b'{"phone": "18871218602", "pwd": "qfJVK5kl", "rePwd": "qfJVK5kl", "userName": "cengyu26"}'
+2020-05-05 22:28:26,632 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:19 GMT
+
+{"code":2000,"message":"注册成功；用户ID:13906","data":{"userName":"cengyu26","accoutId":13906,"cstId":14017,"userId":13906}}
+2020-05-05 22:28:28,461 - tools.report.log_tool - INFO - ----请求用时: 788.517 秒数
+2020-05-05 22:28:28,462 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/user/changepwd
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjkwNjk0NDgzLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+content-type: application/json;;charset=UTF-8
+Content-Length: 92
+
+b'{"newPwd": "bQ3ngWPw", "oldPwd": "123456d", "reNewPwd": "bQ3ngWPw", "userName": "xx123456d"}'
+2020-05-05 22:28:28,462 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:28:21 GMT
+
+{"code":2000,"message":"修改成功1","data":""}
+2020-05-05 22:30:15,035 - tools.report.log_tool - INFO - ----请求用时: 707.903 秒数
+2020-05-05 22:30:15,036 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-05-05 22:30:15,036 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:30:08 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTg4NjkwODA4MjM4LCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==","userName":"dxhd123456"}}
+2020-05-05 22:30:15,262 - tools.report.log_tool - INFO - ----请求用时: 213.32 秒数
+2020-05-05 22:30:15,263 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=15123274197
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjkwODA4MjM4LCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 22:30:15,263 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:30:08 GMT
+
+{"code":2000,"message":"查询成功","data":[{"cstId":1,"cstName":"王明","phone":"15123274197","certno":"142709199407289929","province":"string","city":"string","status":1,"createTime":"2019-10-11T00:32:29.000+0000","updateTime":"2019-10-11T00:32:29.000+0000","birthday":"1998-12-23T16:00:00.000+0000","sex":1,"email":"767yy77@qq.com"}]}
+2020-05-05 22:30:15,468 - tools.report.log_tool - INFO - ----请求用时: 102.13 秒数
+2020-05-05 22:30:15,469 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/user/lock
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: pub_dic
+Content-Length: 18
+Content-Type: application/x-www-form-urlencoded
+
+userName=jinqian78
+2020-05-05 22:30:15,473 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:30:08 GMT
+
+{"code":9999,"data":"","message":"登录失效或者token过期"}
+2020-05-05 22:30:16,167 - tools.report.log_tool - INFO - ----请求用时: 655.739 秒数
+2020-05-05 22:30:16,167 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/acc/recharge
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 49
+
+b'{"accountName": "jinqian78", "changeMoney": 1000}'
+2020-05-05 22:30:16,168 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:30:09 GMT
+
+{"code":2000,"message":"充值成功;账户余额6000分","data":""}
+2020-05-05 22:34:55,376 - tools.report.log_tool - INFO - ----请求用时: 141.444 秒数
+2020-05-05 22:34:55,376 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-05-05 22:34:55,377 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:34:47 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTg4NjkxMDg4NTk4LCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==","userName":"dxhd123456"}}
+2020-05-05 22:34:55,646 - tools.report.log_tool - INFO - ----请求用时: 256.103 秒数
+2020-05-05 22:34:55,647 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=15123274197
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NjkxMDg4NTk4LCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-05 22:34:55,647 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:34:48 GMT
+
+{"code":2000,"message":"查询成功","data":[{"cstId":1,"cstName":"王明","phone":"15123274197","certno":"142709199407289929","province":"string","city":"string","status":1,"createTime":"2019-10-11T00:32:29.000+0000","updateTime":"2019-10-11T00:32:29.000+0000","birthday":"1998-12-23T16:00:00.000+0000","sex":1,"email":"767yy77@qq.com"}]}
+2020-05-05 22:34:55,965 - tools.report.log_tool - INFO - ----请求用时: 237.991 秒数
+2020-05-05 22:34:55,965 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/user/lock
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: pub_dic
+Content-Length: 18
+Content-Type: application/x-www-form-urlencoded
+
+userName=jinqian78
+2020-05-05 22:34:55,966 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:34:48 GMT
+
+{"code":9999,"data":"","message":"登录失效或者token过期"}
+2020-05-05 22:34:57,355 - tools.report.log_tool - INFO - ----请求用时: 378.455 秒数
+2020-05-05 22:34:57,356 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/acc/recharge
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 49
+
+b'{"accountName": "jinqian78", "changeMoney": 1000}'
+2020-05-05 22:34:57,356 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 May 2020 14:34:50 GMT
+
+{"code":2000,"message":"充值成功;账户余额7000分","data":""}
+2020-05-06 20:49:26,960 - tools.report.log_tool - INFO - ----请求用时: 435.289 秒数
+2020-05-06 20:49:26,965 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-05-06 20:49:26,965 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 06 May 2020 12:49:18 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTg4NzcxMTU5NDgwLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==","userName":"dxhd123456"}}
+2020-05-06 20:49:27,929 - tools.report.log_tool - INFO - ----请求用时: 960.016 秒数
+2020-05-06 20:49:27,929 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/cst/getCustomer?phone=15123274197
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTg4NzcxMTU5NDgwLCJ1c2VySWQiOjEwNzA0LCJ1c2VyTmFtZSI6ImR4aGQxMjM0NTYifQ==
+
+None
+2020-05-06 20:49:27,930 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 06 May 2020 12:49:20 GMT
+
+{"code":2000,"message":"查询成功","data":[{"cstId":1,"cstName":"哦后","phone":"15123274197","certno":"3101114098","province":"上海","city":"上海","status":1,"createTime":"2019-10-11T00:32:29.000+0000","updateTime":"2019-10-11T00:32:29.000+0000","birthday":"1993-12-31T16:00:00.000+0000","sex":0,"email":"g9b56irn@qq.com"}]}
+2020-05-06 20:49:28,223 - tools.report.log_tool - INFO - ----请求用时: 142.074 秒数
+2020-05-06 20:49:28,223 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/user/lock
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: pub_dic
+Content-Length: 18
+Content-Type: application/x-www-form-urlencoded
+
+userName=jinqian78
+2020-05-06 20:49:28,225 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Transfer-Encoding: chunked
+Date: Wed, 06 May 2020 12:49:20 GMT
+
+{"code":9999,"data":"","message":"登录失效或者token过期"}
+2020-05-06 20:49:29,075 - tools.report.log_tool - INFO - ----请求用时: 839.964 秒数
+2020-05-06 20:49:29,075 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/acc/recharge
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 49
+
+b'{"accountName": "jinqian78", "changeMoney": 1000}'
+2020-05-06 20:49:29,075 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 06 May 2020 12:49:21 GMT
+
+{"code":2000,"message":"充值成功;账户余额8000分","data":""}
+2020-05-06 21:23:06,370 - tools.report.log_tool - ERROR - Exception url: http://api.yansl.com:8084/login
+2020-05-06 21:23:06,468 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='api.yansl.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000208C91CD4E0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2020-05-06 21:29:40,748 - tools.report.log_tool - ERROR - Exception url: http://api.yansl.com:8084/login
+2020-05-06 21:29:40,778 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='api.yansl.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000210B01D5978>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))

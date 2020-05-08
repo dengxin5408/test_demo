@@ -3,8 +3,8 @@ import pytest
                                                                                            
 if __name__ == '__main__':
     # 修改成要执行的测试用例
-    # test_case = './test_case/user'
-    test_case2 = './test_case/user/test_csv.py'
+    test_case2 = './test_case/user/test_lianxi1.py'
+    #test_case2 = './test_case/user/test_lianxi1.py'
 
     xml_report_path = './reports/xml/'
     html_report_path = './reports/html/'
