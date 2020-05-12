@@ -1,0 +1,10 @@
+2020-01-02 16:17:05,035 - tools.report.log_tool - ERROR - Exception url: https://api.devkeep.com/dev/common/sys/user/save
+2020-01-02 16:17:05,039 - tools.report.log_tool - ERROR - Value for header {data: 1577953024882} must be of type str or bytes, not <class 'int'>
+2020-01-02 17:16:02,753 - tools.report.log_tool - ERROR - Exception url: https://api.devkeep.com/dev/common/sys/user/save
+2020-01-02 17:16:02,753 - tools.report.log_tool - ERROR - Value for header {data: ('1577956562602', 'roomWzff0i4Fua5Hb4XxFqQKy3s1LRNt6CpG1577956562602')} must be of type str or bytes, not <class 'tuple'>
+2020-01-02 17:16:56,877 - tools.report.log_tool - ERROR - Exception url: https://api.devkeep.com/dev/common/sys/user/save
+2020-01-02 17:16:56,877 - tools.report.log_tool - ERROR - Value for header {data: ('1577956616722', 'roomWzff0i4Fua5Hb4XxFqQKy3s1LRNt6CpG1577956616722')} must be of type str or bytes, not <class 'tuple'>
+2020-01-02 17:20:46,442 - tools.report.log_tool - ERROR - Exception url: https://api.devkeep.com/dev/common/sys/user/save
+2020-01-02 17:20:46,442 - tools.report.log_tool - ERROR - Value for header {data: ('1577956846295', 'roomWzff0i4Fua5Hb4XxFqQKy3s1LRNt6CpG1577956846295')} must be of type str or bytes, not <class 'tuple'>
+2020-01-02 17:22:55,431 - tools.report.log_tool - ERROR - Exception url: https://api.devkeep.com/dev/common/sys/user/save
+2020-01-02 17:22:55,432 - tools.report.log_tool - ERROR - Value for header {data: ('1577956975286', 'roomWzff0i4Fua5Hb4XxFqQKy3s1LRNt6CpG1577956975286')} must be of type str or bytes, not <class 'tuple'>

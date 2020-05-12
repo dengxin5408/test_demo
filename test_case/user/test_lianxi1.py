@@ -1,7 +1,6 @@
 import pytest
 from tools.api import request_tool
 import requests
-import openpyxl
 
 
 
