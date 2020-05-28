@@ -1,0 +1,6 @@
+2020-05-12 23:33:41,641 - tools.report.log_tool - ERROR - Exception url: http://api.yansl.com:8084/login
+2020-05-12 23:33:41,648 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='api.yansl.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001972DBDC278>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2020-05-13 01:55:12,228 - tools.report.log_tool - ERROR - Exception url: http://api.yansl.com:8084/login
+2020-05-13 01:55:12,228 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='api.yansl.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025F2E4A23C8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2020-05-13 15:12:24,612 - tools.report.log_tool - ERROR - Exception url: http://api.yansl.com:8084/login
+2020-05-13 15:12:24,618 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='api.yansl.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002145FA54BA8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
