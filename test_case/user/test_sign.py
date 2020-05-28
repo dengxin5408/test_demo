@@ -1,7 +1,7 @@
 from tools.api import request_tool
 from tools.data import random_tool
 import openpyxl
-from test_case.sjjy_mb.lianxi import sign_up
+
 
 
 def test_sign():
@@ -38,5 +38,3 @@ def test_sign():
 
 
 
-# def test_sign_up():
-#        sign_up(phone='13318357190',pwd='5235dx',rePwd='5235dx',userName='denyh4235',expect='2000')
