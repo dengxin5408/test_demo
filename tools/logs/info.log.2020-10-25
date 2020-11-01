@@ -1,0 +1,192 @@
+2020-10-25 02:31:54,029 - tools.report.log_tool - INFO - ----请求用时: 132.288 秒数
+2020-10-25 02:31:54,035 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-10-25 02:31:54,036 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 24 Oct 2020 18:31:51 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2020-10-25 02:34:22,918 - tools.report.log_tool - INFO - ----请求用时: 117.484 秒数
+2020-10-25 02:34:22,918 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-10-25 02:34:22,918 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 24 Oct 2020 18:34:20 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2020-10-25 02:34:24,458 - tools.report.log_tool - ERROR - Exception url: http://www.guoyasoft.com:8084/login
+2020-10-25 02:34:24,603 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='www.guoyasoft.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B890AECF8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-10-25 02:34:25,962 - tools.report.log_tool - ERROR - Exception url: http://www.guoyasoft.com:8084/login
+2020-10-25 02:34:25,964 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='www.guoyasoft.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B891F2438>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-10-25 02:34:27,173 - tools.report.log_tool - ERROR - Exception url: http://www.guoyasoft.com:8084/login
+2020-10-25 02:34:27,175 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='www.guoyasoft.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B891FA208>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-10-25 02:34:27,315 - tools.report.log_tool - INFO - ----请求用时: 124.205 秒数
+2020-10-25 02:34:27,316 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"phone": "15915096745", "pwd": "4t4fgQz6", "rePwd": "4t4fgQz6", "userName": "liangbq84"}'
+2020-10-25 02:34:27,316 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 24 Oct 2020 18:34:24 GMT
+
+{"code":2000,"message":"注册成功；用户ID:100135","data":{"userName":"liangbq84","accoutId":18658,"cstId":18668,"userId":100135}}
+2020-10-25 03:39:27,551 - tools.report.log_tool - INFO - ----请求用时: 147.051 秒数
+2020-10-25 03:39:27,552 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-10-25 03:39:27,552 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 24 Oct 2020 19:39:25 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2020-10-25 12:28:44,397 - tools.report.log_tool - INFO - ----请求用时: 136.494 秒数
+2020-10-25 12:28:44,398 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-10-25 12:28:44,398 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 25 Oct 2020 04:28:44 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2020-10-25 12:28:45,764 - tools.report.log_tool - ERROR - Exception url: http://www.guoyasoft.com:8084/login
+2020-10-25 12:28:45,768 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='www.guoyasoft.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000247DA4D1160>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-10-25 12:28:46,966 - tools.report.log_tool - ERROR - Exception url: http://www.guoyasoft.com:8084/login
+2020-10-25 12:28:46,966 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='www.guoyasoft.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000247DA4DF4A8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-10-25 12:28:48,150 - tools.report.log_tool - ERROR - Exception url: http://www.guoyasoft.com:8084/login
+2020-10-25 12:28:48,150 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='www.guoyasoft.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000247DA4F3B00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-10-25 12:28:48,228 - tools.report.log_tool - INFO - ----请求用时: 42.875 秒数
+2020-10-25 12:28:48,229 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 87
+
+b'{"phone": "18972693664", "pwd": "M1vLYwHs", "rePwd": "M1vLYwHs", "userName": "shiyu82"}'
+2020-10-25 12:28:48,229 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 25 Oct 2020 04:28:47 GMT
+
+{"code":2000,"message":"注册成功；用户ID:100136","data":{"userName":"shiyu82","accoutId":18659,"cstId":18669,"userId":100136}}
+2020-10-25 12:35:39,228 - tools.report.log_tool - INFO - ----请求用时: 116.31 秒数
+2020-10-25 12:35:39,229 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-10-25 12:35:39,229 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 25 Oct 2020 04:35:38 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2020-10-25 12:43:01,375 - tools.report.log_tool - INFO - ----请求用时: 138.737 秒数
+2020-10-25 12:43:01,375 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-10-25 12:43:01,376 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 25 Oct 2020 04:43:01 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2020-10-25 12:44:31,457 - tools.report.log_tool - INFO - ----请求用时: 116.648 秒数
+2020-10-25 12:44:31,457 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-10-25 12:44:31,457 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 25 Oct 2020 04:44:31 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2020-10-25 12:45:49,364 - tools.report.log_tool - INFO - ----请求用时: 118.198 秒数
+2020-10-25 12:45:49,365 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-10-25 12:45:49,365 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 25 Oct 2020 04:45:49 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
